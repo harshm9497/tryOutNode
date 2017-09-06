@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1  name that was sent was #{user}
+         #myLoginPage
+            h1#entername enter you details to login
+            form(action="submit")
+                label(for="name_id") name
+                br
+                input(type="text" autofocus id="name_id" class="user_input" placeholder="enter ID")
+                br
+                label(for="password") password
+                br
+                input(type="text" id="password" class="user_input" placeholder="Password")
+    h2 can you here me
+   

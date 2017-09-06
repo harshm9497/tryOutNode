@@ -1,0 +1,23 @@
+#myLoginPage
+{
+    display: block;
+    margin-left: 20%;
+    width: 60%;
+    height: 45%;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 4px rosybrown;
+
+}
+.user_input
+{
+    width:25%;
+    height: 20px;
+    transition: .4s;
+}
+.user_input:focus
+{
+    width:40%;
+    height: 28px;
+
+}
